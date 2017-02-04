@@ -1,0 +1,5 @@
+** What happens when you initialize a repository? Why do you need to do it?
+	- You setup all the necessary files for tgit to use in the future. This includes for logs, commits, checkouts, EVERYTHING. Without doign this init first, you wouldn't be able to do all the more complicated, wonderful things that git has to offer for version control
+
+** How is the staging area different from the working directory and the repository? What value do you think it offers?
+	- The staging area exists only because of git, while the working directory is the actual current state of the files. It offers a lot of values because it lets YOU control the state of the next commit, it lets you have control over the next saved state of the file
