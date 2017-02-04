@@ -1,0 +1,23 @@
+** How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	- Viewing the differences between the two files highlighted what had changed between verions. THis means that, barring any of the differences, the program has NOT CHANGED. This means that, because there was a bug, it HAD to lie within these changed lines, which means that we could focus on those and identify the problem much more quickly than we otherwise could, if were just skimming through the file regularly
+
+** How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	- You can see how a program grows and changes over time. In earlier versions of a program there are likely very innefficient ways things were done. And the newer version will likely have more efficient ways to do things, time saving methods, or just completely other ways that work better than the old ways, which is why they've been subsequently replaced
+
+** What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	- The pros are that you are able to see your changes and look at them in detail, anda pprecaite and compare and contrast easch versions! Also, if you break a feature taht used to work in the future, you'll have many different versions to compare against and see how to fix what was once working just fine
+	- The cons are that you might forget to commit. And not have an old version to compare to. As long as you work on committing in small, appropriate amounts, you should have more than enough material to work with.
+	- With automatic saves, there is too much happening for the most part. You Especially because you are certain to have saves without much changes made, making it hard to find the old version you are looking for
+
+** Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	- I think since Git is focused more on programming than anything else, files are commonly interdependent on each other. And they require that to be able to work and grow correctly! Google Docs tend to always be independent files that exist on their own and can afford to only worry about their one file
+
+** How can you use the commands git log and git diff to view the history of files?
+	- Well, git log is used more for the entire history of a file, to see the past versions of a project, see all the different commits and how they've changed
+	- git diff is more about seeing the EXACT differences between two particular versions of the files
+
+** How might using version control make you more confident to make changes that could break something?
+	- Version control gives you confidence to be more bold with your code! Knowing that you always have a safee backup of WORKING code, you can feel free to experiment and try whatever you feel like, without being scared that you're going to lose something that you wouldn't be able to get back
+
+** Now that you have your workspace set up, what do you want to try using Git for?
+	- I definitely want to use git for any personal projects that I am working on. Or even any projects that I'm going to be submitting for Udacity. It will help me get practice with version control and keep my code clearner and safer by having backups
